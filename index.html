@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Grupo 3</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+      <a href="#">
+        <img src="images/logo.png" alt="Logo do Grupo 3">
+      </a>
+
+      <ul class="nav-list">
+        <li class="nav-item active">
+          <a href="#">Daniel</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">Francisco</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">Marcelo</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">Ruby</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">Wallacy</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="main-banner">
+      
+      <div class="banner-content">
+        <h1>Arquitetura do Computador</h1>
+        
+        <p>A Arquitetura de Computadores é o projeto conceitual e 
+          fundamental da estrutura operacional de um sistema computacional. 
+          Ela é o estudo dos requisitos necessários para que um computador 
+          funcione e de como organizar os diversos componentes para obter 
+          melhores desempenhos.</p>
+        
+        
+      </div>
+
+      <div class="banner-image">
+        <img src="images/main-banner.png" alt="Diagrama Arquitetura do Computador">
+      </div>
+    </section>
+
+    <section id="our-services">
+      <div class="section-header">
+        <h2 class="section-title">Mas o que acontece quando ligamos o computador?</h2>
+        <hr>
+
+        <p class="subtitle">Todo mundo que utiliza um computador alguma vez já teve a 
+          dúvida sobre o que acontece quando apertamos o botão de ligar. Por isso fizemos 
+          um resumo logo abaixo para responder essa questão.</p>
+      </div>
+
+      <div class="services">
+
+        <!--  Primeiro serviço -->
+        <div class="service">
+          <img src="images/service-1.png" alt="Ao ligar o computador">
+
+          <h3>1 - Ao apertar o botão ligar.</h3>
+
+          <p>A energia começa a fluir dentro do computador.</p>
+        </div>
+
+        <!--  Segundo serviço -->
+        <div class="service">
+          <img src="images/service-2.png" alt="A bios e a CPU">
+        
+          <h3>2 - A CPU</h3>
+        
+          <p> O primeiro a acordar é a cpu e ela vai buscar o que vai fazer 
+            com a BIOS ou UEFI.</p>
+        </div>
+
+        <!--  Terceiro serviço -->
+        <div class="service">
+          <img src="images/service-3.png" alt="A BIOS">
+        
+          <h3>3 - A BIOS</h3>
+        
+          <p>Quando a BIOS é iniciada ela vai acordar os componentes de acordo com uma 
+            configuração predeterminada e executar o POST (Power On Self Test) que verifica 
+            se os componentes estão funcionando adequadamente, então depois desse processo 
+            ele vai buscar o sistema operacional na memória secundária (hd ou ssd).
+            Curiosidade: também dá pra iniciar o sistema operacional pelo pendrive.</p>
+        </div>
+
+        <!--  Primeiro serviço -->
+        <div class="service">
+          <img src="images/service-4.png" alt="O BootLoader">
+
+          <h3>4 - O Bootloader</h3>
+
+          <p>Em seguida o bootloader(carregador de inicialização) que fica na MBR
+            (Master Boot Record) do disco rígido ele carrega o sistema operacional.
+             dependendo do sistema esse bootloader pode ser o GRUB ou LILO para linux, 
+             boot.efi para mac e windows boot manager para windows.</p>
+        </div>
+
+        <!--  Segundo serviço -->
+        <div class="service">
+          <img src="images/service-5.png" alt="O HD e a Memória RAM">
+        
+          <h3>5 - E o que vem depois da BIOS?</h3>
+        
+          <p>Depois o sistema operacional no hd é jogado na memória principal(memória ram).</p>
+        </div>
+
+        <!--  Terceiro serviço -->
+        <div class="service">
+          <img src="images/service-6.png" alt="Inicialização Windows">
+        
+          <h3>6 - A última etapa: a inicialização do Sistema operacional</h3>
+        
+          <p>E quando o sistema operacional está na memória principal, já dá para ver o windows na tela. 
+
+            curiosidade: com um hd todo esse processo é feito em média em 1m e 39s, com um ssd apenas 22s.
+            Lembrando que os tempos podem variar de acordo com o sistema e a máquina utilizada.</p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer></footer>
+</body>
+</html>
